@@ -43,3 +43,29 @@ Language    | Level
 Russian     |   Native 
 Ukrainian    |   Proficiency 
 English      |   Upper-Intermidiate
+
+## SKILLS
+
++ MS Office, Google docs
++ Trello, Slack, Targetprocess, Helpdesk
++ Jira
+
+
+## CODE EXAMPLE
+
+```
+<style>
+    .card-hello {
+        background-color: #FA7268;
+        color: FFFFF;
+        width: 230px;
+        height: 25px;
+        padding: 20px;
+        margin: 10px;
+        border: 2px solid #9C27BO;
+        font-size: 20px;
+    }
+    </style>
+    
+    <div class="card-hello">I'm so good at coding</div>
+```
