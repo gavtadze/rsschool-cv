@@ -11,8 +11,8 @@
 ## ABOUT
 Age: 32
 **************
-We spend the third part of our life at work.
-I believe we should enjoy it. I like challenging tasks. My aspiration is to make things work better. I want to be a part of a great team and create useful project together.
+    We spend the third part of our life at work.
+    I believe we should enjoy it. I like challenging tasks. My aspiration is to make things work better. I want to be a part of a great team and create useful project together.
 ************
 ## WORK EXPERIENCE
 
