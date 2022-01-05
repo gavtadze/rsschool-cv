@@ -1,0 +1,180 @@
+h1 {color: #122230;}
+h2 {color: #124450;}
+h4 {color: #126a7e;}
+a {color: #1aa1b1;}
+a:hover {color: #20dbd8;}
+
+
+
+@font-face {
+	font-family: "Libre Franklin";
+	src: url("assets/fonts/Roboto.ttf");
+}
+
+* {
+	box-sizing: border-box;
+    
+}
+
+
+html {
+	scroll-behavior: smooth;
+}
+
+ul {
+	list-style: none;
+    padding: 0 20px;
+    line-height: 20px;
+	list-style-type: square;
+	color: #124450;
+}
+
+ul a {
+	text-decoration: none;
+	color: #124450;
+	list-style: none;
+	padding: 0 20px;
+	list-style-type: none;
+}
+.nav-link {
+	padding: 0 20px;
+	line-height: 50px;
+  }
+
+
+h1 {
+    font-variant: small-caps;
+    
+}
+
+body {
+	font-family: "Libre Franklin";
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+    height: 7vh;
+}
+
+.left {
+    float:left;
+}
+
+nav, footer {
+	
+	padding: 20px;
+	padding-right: 120px;
+	padding-left: 120px;
+	text-align: right;
+	color: #fff;
+    background: #126a7e;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	margin: 8px;
+}
+
+footer a {
+    color: #fff;
+	text-decoration: none;
+	margin: 8px;
+}
+
+footer .logo {
+    align-items: left;
+    width: 50px;
+    display: block;
+}
+
+footer img {
+
+    align-items: baseline;
+}
+
+.container_border>div {
+	background-color: lightslategray;
+	height: 1px;
+	border: 1px solid black;
+	width: 50%;
+	margin: 10px;
+}
+
+.container_border {
+	width: 80%;
+	display: flex;
+	margin: 0 auto;
+}
+
+.container {
+	display: flex;
+	flex-flow: row nowrap;
+	flex: 1;
+	justify-content: space-around;
+	align-items: center;
+	width: 80%;
+	margin: 20px auto;
+	align-items: flex-start;
+	
+}
+
+.container.container.top {
+	border-bottom: 5px solid #126a7e;
+
+}
+
+.container.top>div {
+	text-align: center;
+	
+}
+
+.container>div {
+	flex: 1 1 0;
+	justify-content: space-between;
+	margin-left: 20px;
+}
+
+
+.example {
+    background-color: #d4ecec;
+}
+
+
+
+table {
+    table-layout: fixed;
+    width: 70%;
+    border-collapse: collapse;
+    border: 2px solid #124450;
+    text-align:center
+  }
+  thead tr:nth-child(1) {
+    width: 20%;
+    border: 1px solid #124450;
+  }
+  
+  thead tr:nth-child(2) {
+    width: 20%;
+    border: 1px solid #124450;
+  }
+  
+  thead tr:nth-child(3) {
+    width: 20%;
+    border: 1px solid #124450;
+  }
+  
+  thead tr:nth-child(4) {
+    width: 20%;
+    border: 1px solid #124450;
+  }
+  
+  tr, td {
+    padding: 10px;
+    border: 1px solid #124450;
+  }
