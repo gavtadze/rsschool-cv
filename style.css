@@ -16,6 +16,7 @@ a:hover {color: #20dbd8;}
     
 }
 
+
 html {
 	scroll-behavior: smooth;
 }
@@ -24,7 +25,22 @@ ul {
 	list-style: none;
     padding: 0 20px;
     line-height: 20px;
+	list-style-type: square;
+	color: #124450;
 }
+
+ul a {
+	text-decoration: none;
+	color: #124450;
+	list-style: none;
+	padding: 0 20px;
+	list-style-type: none;
+}
+.nav-link {
+	padding: 0 20px;
+	line-height: 50px;
+  }
+
 
 h1 {
     font-variant: small-caps;
@@ -41,21 +57,45 @@ body {
 	padding: 0;
 }
 
-nav,
-footer {
-	background: #126a7e;
+nav {
+    height: 7vh;
+}
+
+.left {
+    float:left;
+}
+
+nav, footer {
+	
 	padding: 20px;
 	padding-right: 120px;
 	padding-left: 120px;
 	text-align: right;
 	color: #fff;
-	height: 7vh;
+    background: #126a7e;
 }
 
 nav a {
 	color: #fff;
 	text-decoration: none;
 	margin: 8px;
+}
+
+footer a {
+    color: #fff;
+	text-decoration: none;
+	margin: 8px;
+}
+
+footer .logo {
+    align-items: left;
+    width: 50px;
+    display: block;
+}
+
+footer img {
+
+    align-items: baseline;
 }
 
 .container_border>div {
@@ -81,14 +121,17 @@ nav a {
 	width: 80%;
 	margin: 20px auto;
 	align-items: flex-start;
+	
 }
 
 .container.container.top {
 	border-bottom: 5px solid #126a7e;
+
 }
 
 .container.top>div {
 	text-align: center;
+	
 }
 
 .container>div {
@@ -101,3 +144,37 @@ nav a {
 .example {
     background-color: #d4ecec;
 }
+
+
+
+table {
+    table-layout: fixed;
+    width: 70%;
+    border-collapse: collapse;
+    border: 2px solid #124450;
+    text-align:center
+  }
+  thead tr:nth-child(1) {
+    width: 20%;
+    border: 1px solid #124450;
+  }
+  
+  thead tr:nth-child(2) {
+    width: 20%;
+    border: 1px solid #124450;
+  }
+  
+  thead tr:nth-child(3) {
+    width: 20%;
+    border: 1px solid #124450;
+  }
+  
+  thead tr:nth-child(4) {
+    width: 20%;
+    border: 1px solid #124450;
+  }
+  
+  tr, td {
+    padding: 10px;
+    border: 1px solid #124450;
+  }
